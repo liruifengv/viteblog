@@ -6,6 +6,11 @@
     "outDir": "../../dist/node",
     "module": "commonjs",
     "lib": ["ESNext", "DOM"],
-    "sourceMap": true
+    "sourceMap": true,
+    "paths": {
+    }
   },
+  "include": [
+    ".",
+  ]
 }
